@@ -1,0 +1,237 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "to-user-launch-amazon-homepage;launch-amazon-home-page",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "launch amazon home page",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 659029699
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 191839600
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "To user launch browser and pass amazon",
+            "match": {
+              "location": "e2etest\\test\\steps\\amazon.ts:6"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 142272399
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazon",
+            "line": 1
+          },
+          {
+            "name": "@smoke",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "to-user-launch-amazon-homepage",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "to user launch amazon homepage",
+    "tags": [
+      {
+        "name": "@amazon",
+        "line": 1
+      }
+    ],
+    "uri": "e2etest\\test\\features\\amazonhome.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "to-validate-login-function;to-user-login-with-valid-username-and-valid-password",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "To user login with valid username and valid password",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 593463600
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 227615699
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "To user launch browser",
+            "match": {
+              "location": "e2etest\\test\\steps\\loginpage.ts:11"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 67806500
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user enter valid username and passeword",
+            "match": {
+              "location": "e2etest\\test\\steps\\loginpage.ts:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5083007399
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "user click login button",
+            "match": {
+              "location": "e2etest\\test\\steps\\loginpage.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 160678100
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@swag",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 4
+          },
+          {
+            "name": "@smoke",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "to-validate-login-function;to-user-login-with-invalid-username-and-invalid-password",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "To user login with invalid username and invalid password",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 586969800
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 241777900
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "To user launch browser",
+            "match": {
+              "location": "e2etest\\test\\steps\\loginpage.ts:11"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 62014800
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "user enter invalid username and passeword",
+            "match": {
+              "location": "e2etest\\test\\steps\\loginpage.ts:22"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5082595299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "user click login button",
+            "match": {
+              "location": "e2etest\\test\\steps\\loginpage.ts:5"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 139536199
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [
+          {
+            "name": "@swag",
+            "line": 1
+          },
+          {
+            "name": "@sanity",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "to-validate-login-function",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "To Validate login function",
+    "tags": [
+      {
+        "name": "@swag",
+        "line": 1
+      }
+    ],
+    "uri": "e2etest\\test\\features\\login.feature"
+  }
+]
