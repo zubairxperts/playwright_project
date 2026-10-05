@@ -24,6 +24,6 @@ When('user enter invalid username and passeword', async function () {
             await username.fill("problem_user");
             let password= page.locator("#password")
             await password.fill("secret_sauce")
-            console.log("Zubair update")
+         console.log("Xpert update")
 });
 
